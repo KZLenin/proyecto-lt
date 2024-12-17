@@ -1,4 +1,6 @@
 import React from 'react';
+import cristiano from "../assets/CRISTIANO.jpg"
+import estadio from "../assets/SantiagoBer.jpg"
 import '../styles/deportes.css';
 
 function Deportes() {
@@ -15,7 +17,11 @@ function Deportes() {
           <h3>Real Madrid</h3>
         </div>
         <div className="card">
-          <img src="/assets/CRISTIANO.jpg" alt="Cristiano Ronaldo" />
+          <img src={estadio} alt="Santiago Bernabeu" />
+          <h3>Santiago Benabeu</h3>
+        </div>
+        <div className="card">
+          <img src={cristiano} alt="Cristiano Ronaldo" />
           <h3>Cristiano Ronaldo</h3>
         </div>
       </div>
